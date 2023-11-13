@@ -10,6 +10,7 @@ const Hero = () => {
             <div className="w-full md:basis-1/2 ">
               <h5
                 data-aos="fade-right"
+                zzxz
                 data-aos-duration="1500"
                 className="text-headingColor font-[600] text-[16px]"
               >
@@ -106,6 +107,33 @@ const Hero = () => {
                 <h2 className="text-headingColor font-[700] text-[32px]">
                   <CountUp start={0} end={6} duration={2} suffix="+" />
                 </h2>
+                <h4 className="text-headingColor font-[600] text-[18px]">
+                  Years of Experience
+                </h4>
+              </div>
+              <div className="mb-10">
+                <h2 className="text-headingColor font-[700] text-[32px]">
+                  <CountUp start={0} end={100} duration={2} suffix="%" />
+                </h2>
+                <h4 className="text-headingColor font-[600] text-[18px]">
+                  Success Rate
+                </h4>
+              </div>{" "}
+              <div className="mb-10">
+                <h2 className="text-headingColor font-[700] text-[32px]">
+                  <CountUp start={0} end={150} duration={2} suffix="+" />
+                </h2>
+                <h4 className="text-headingColor font-[600] text-[18px]">
+                  Happy Clients
+                </h4>
+              </div>{" "}
+              <div className="mb-10">
+                <h2 className="text-headingColor font-[700] text-[32px]">
+                  <CountUp start={0} end={249} duration={2} suffix="+" />
+                </h2>
+                <h4 className="text-headingColor font-[600] text-[18px]">
+                  Projects Completed
+                </h4>
               </div>
             </div>
             {/* ===============hero content right end ================= */}
