@@ -12,7 +12,7 @@ function App() {
     Aos.init();
   });
   return (
-    <>
+    <div className="lg:overflow-hidden ">
       <Header />
       <main>
         <Hero />
@@ -21,7 +21,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </>
+    </div>
   );
 }
 

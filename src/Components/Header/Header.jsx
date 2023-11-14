@@ -41,7 +41,7 @@ const Header = () => {
   return (
     <header
       ref={headerRef}
-      className="w-full h-[80px] leading-[80px] flex items-center"
+      className="w-screen h-[80px] leading-[80px] flex items-center"
     >
       <div className="container">
         <div className="flex items-center justify-between">

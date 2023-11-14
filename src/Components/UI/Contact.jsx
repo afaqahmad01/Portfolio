@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section id="contact" className="w-screen">
       <div className="container">
         <h2 className="text-headingColor font-[700] text-[2.5rem] mb-8">
           Get in touch

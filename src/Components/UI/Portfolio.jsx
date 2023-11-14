@@ -36,7 +36,7 @@ const Portfolio = () => {
   }, [selectTab]);
 
   return (
-    <section id="portfolio">
+    <section id="portfolio" className="w-screen">
       <div className="container">
         <div className="flex items-center justify-between flex-wrap">
           <div className="mb-7 sm:mv-0">
@@ -45,7 +45,7 @@ const Portfolio = () => {
             </h3>
           </div>
 
-          <div className="flex gap-3">
+          <div className="flex gap-3 mb-5">
             <button
               onClick={() => setSelectTab("all")}
               className="text-smallTextColor border border-solid border-smallTextColor py-2 px-4 rounded-[8px] "
